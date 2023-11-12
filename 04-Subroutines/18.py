@@ -4,4 +4,4 @@ def numbers(n):
         print(i,end=' ')
  
 
-numbers(7)
+print(numbers(7))

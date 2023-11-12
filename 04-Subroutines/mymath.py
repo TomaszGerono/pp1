@@ -1,3 +1,5 @@
+import random
+
 def generate_number():
     return random.randint(1,9) 
 
@@ -7,3 +9,5 @@ y = generate_number()
 
 if x == y:
     print('You won')
+else:
+    print('You lost')
